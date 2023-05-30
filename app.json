@@ -1,0 +1,23 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/profile/profile"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#654321",
+        "navigationBarTextStyle": "white"
+    },
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "van-button": "@vant/weapp/button/index",
+        "van-transition": "@vant/weapp/transition/index",
+        "van-icon": "@vant/weapp/icon/index"
+    },
+    "requiredBackgroundModes": [
+        "audio",
+        "location"
+    ],
+    "lazyCodeLoading": "requiredComponents",
+    "renderer": "skyline"
+}

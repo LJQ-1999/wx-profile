@@ -1,0 +1,200 @@
+/**index.wxss**/
+.stars1 {
+    width: 10rpx;
+    height: 170rpx;
+    position: absolute;
+    background: linear-gradient(0deg, transparent 0, white 100%);
+    animation: cartoon1 8s linear infinite;
+}
+
+.stars1::after {
+    content: "";
+    position: absolute;
+    width: 20rpx;
+    height: 20rpx;
+    border-radius: 50%;
+    background: white;
+    filter: blur(3.6rpx);
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@keyframes cartoon1 {
+    0% {
+        transform: rotate(-135deg) translateY(220px) scale(0.5);
+        opacity: 0;
+    }
+
+    60% {
+        transform: rotate(-135deg) translateY(220px) scale(0.5);
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+        transform: rotate(-135deg) translateY(100px) scale(1.1);
+    }
+
+    100% {
+        transform: rotate(-135deg) translateY(-100px) scale(0.5);
+        opacity: 0;
+    }
+}
+
+.stars2 {
+    width: 10rpx;
+    height: 170rpx;
+    position: absolute;
+    background: linear-gradient(0deg, transparent 0, rgb(255, 215, 0) 100%);
+    animation: cartoon2 8s linear infinite;
+}
+
+.stars2::after {
+    content: "";
+    position: absolute;
+    width: 20rpx;
+    height: 20rpx;
+    border-radius: 50%;
+    background: rgb(255, 215, 0);
+    filter: blur(3.6rpx);
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@keyframes cartoon2 {
+    0% {
+        transform: rotate(45deg) translateY(220px) scale(0.5);
+        opacity: 0;
+    }
+
+    40% {
+        transform: rotate(45deg) translateY(220px) scale(0.5);
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+        transform: rotate(45deg) translateY(100px) scale(1.1);
+    }
+
+    80% {
+        transform: rotate(45deg) translateY(-100px) scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(-135deg) translateY(-100px) scale(0.5);
+        opacity: 0;
+    }
+}
+
+.stars3 {
+    width: 10rpx;
+    height: 170rpx;
+    position: absolute;
+    background: linear-gradient(0deg, transparent 0, white 100%);
+    animation: cartoon3 8s linear infinite;
+}
+
+.stars3::after {
+    content: "";
+    position: absolute;
+    width: 20rpx;
+    height: 20rpx;
+    border-radius: 50%;
+    background: white;
+    filter: blur(3.6rpx);
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@keyframes cartoon3 {
+    0% {
+        transform: rotate(-135deg) translateY(220px) scale(0.5);
+        opacity: 0;
+    }
+
+    20% {
+        transform: rotate(-135deg) translateY(220px) scale(0.5);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+        transform: rotate(-135deg) translateY(100px) scale(1.1);
+    }
+
+    60% {
+        transform: rotate(-135deg) translateY(-100px) scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(-135deg) translateY(-100px) scale(0.5);
+        opacity: 0;
+    }
+}
+
+.stars4 {
+    width: 10rpx;
+    height: 170rpx;
+    position: absolute;
+    background: linear-gradient(0deg, transparent 0, white 100%);
+    animation: cartoon4 8s linear infinite;
+}
+
+.stars4::after {
+    content: "";
+    position: absolute;
+    width: 20rpx;
+    height: 20rpx;
+    border-radius: 50%;
+    background: white;
+    filter: blur(3.6rpx);
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@keyframes cartoon4 {
+    0% {
+        transform: rotate(-135deg) translateY(220px) scale(0.5);
+        opacity: 0;
+    }
+
+
+    20% {
+        opacity: 1;
+        transform: rotate(-135deg) translateY(100px) scale(1.1);
+    }
+
+    40% {
+        transform: rotate(-135deg) translateY(-100px) scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(-135deg) translateY(-100px) scale(0.5);
+        opacity: 0;
+    }
+}
+
+.enterButton {
+    margin-top: 800rpx;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid;
+    border-width: 2rpx;
+    border-radius: 15rpx;
+}
+
+
+.enterButton:active {
+    transform: scale(0.95);
+}
+
+.word{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 50rpx;
+    color: white;
+}

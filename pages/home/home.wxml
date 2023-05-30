@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="stars1"></view>
+    <view class="stars2" style="left: 400rpx;top: 100rpx;"></view>
+    <view class="stars3" style="left: 300rpx;top: 600rpx;"></view>
+    <view class="stars4" style="left: 100rpx;top: 100rpx;"></view>
+    <text class="word">--烟火向星辰</text>
+    <text class="word" style="margin-left: 100rpx;">所愿皆成真</text>
+    <van-transition name="slide-up" duration="1000">
+        <button class="enterButton" bindtap="enterProfile">进入我的主页</button>
+    </van-transition>
+</view>

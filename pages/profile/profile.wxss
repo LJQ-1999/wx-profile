@@ -1,0 +1,66 @@
+.profile{
+    padding: 80rpx;
+    height: 100%;    
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #EBE8E3FF;
+}
+.profileContent{
+    display: flex;
+    margin-top: 150rpx;
+}
+.musicControl{
+    position: absolute;
+    left: 100rpx;
+    top: 200rpx;
+}
+.card{
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: #C3B2A5FF;
+    border-radius: 50%;
+    /* border-radius: 5rpx; */
+    width: 100%;
+    height: 255rpx;
+    margin-top: 40rpx;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+}
+.colLeft{
+    width: 50%;
+    padding: 20rpx;
+}
+.colRight{
+    width: 50%;
+    padding: 20rpx;
+}
+.contect{
+    width: 100rpx;
+    height: 100rpx;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5rpx;
+    margin-left: 20rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hovorClass{
+    transform: scale(0.95);
+}
+.rotateIcon{
+    position: absolute;
+    top: 200rpx;
+    right: 100rpx;
+}
+
+.avatar{
+    margin: 350rpx 0 0 0;
+    border-radius: 50%;
+    height: 150rpx;
+    width: 150rpx;
+    background-color: rgb(181, 223, 33);
+}

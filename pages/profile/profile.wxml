@@ -1,0 +1,45 @@
+<view class="profile">
+
+    <view class="musicControl">
+        <van-icon name="wap-home-o" size="60rpx" bind:click="home" />
+    </view>
+    <view class="rotateIcon">
+        <van-icon name="pause-circle-o" size="60rpx" bind:click="playMusic" wx:if="{{play}}" />
+        <van-icon name="play-circle-o" size="60rpx" bind:click="playMusic" wx:else="{{play == false}}" />
+    </view>
+
+    <van-transition name="slide-down" custom-class="block" duration="500">
+        <view style="text-align: center;">
+            <view hover-class="hovorClass">
+                <image class="avatar" bindtap="myWx" src="http://39.101.139.227:30900/mini-program/avatar.jpg"></image>
+            </view>
+            <view>点我添加微信</view>
+        </view>
+    </van-transition>
+
+    <van-transition name="slide-up" custom-class="block" duration="500">
+        <view class="profileContent">
+            <view class="colLeft">
+                <view class="card" hover-class="hovorClass" bindtap="viewCV">
+                    <van-icon name="user-o" size="60rpx" />
+                    <text style="margin-top: 15rpx;">我的基本信息</text>
+                </view>
+                <view class="card" hover-class="hovorClass" bindtap="viewSkills">
+                    <van-icon name="brush-o" size="60rpx" />
+                    <text style="margin-top: 15rpx;">我的所学技能</text>
+                </view>
+            </view>
+            <view class="colRight">
+                <view class="card" hover-class="hovorClass" bindtap="viewProjects">
+                    <van-icon name="orders-o" size="60rpx" />
+                    <text style="margin-top: 15rpx;">我的项目经历</text>
+                </view>
+                <view class="card" hover-class="hovorClass" bindtap="viewAwards">
+                    <van-icon name="award-o" size="60rpx" />
+                    <text style="margin-top: 15rpx;">我的成果奖项</text>
+                </view>
+            </view>
+        </view>
+    </van-transition>
+
+</view>
